@@ -55,7 +55,7 @@ pip install torch==1.13.1+cpu torchvision==0.14.1+cpu \ -f https://download.pyto
 ### 3.3 Cài thư viện cần thiết
 
 ```bash
-pip install kornia ultralytics rembg
+pip install kornia ultralytics rembg opencv-python Pillow tqdm
 ```
 
 ## 4. Cấu trúc dữ liệu tối thiểu để test
@@ -69,11 +69,15 @@ pip install kornia ultralytics rembg
 - `datasets/test/openpose-json/` và `datasets/test/openpose-img/` (chỉ cần nếu không dùng `--custom_pose`)
 - `datasets/test_pairs.txt`
 
+- Drive dẫn đến data để train / test: [Data](https://drive.google.com/file/d/1tLx8LRp-sxDp0EcYmYoV_vXdSc-jJ79w/view?usp=sharing)
+
 Checkpoint đặt trong:
 
 - `checkpoints/seg_final.pth`
 - `checkpoints/gmm_final.pth`
 - `checkpoints/alias_final.pth`
+
+- Drive dẫn đến link checkpoint: [Data](https://drive.google.com/drive/folders/0B8kXrnobEVh9fnJHX3lCZzEtd20yUVAtTk5HdWk2OVV0RGl6YXc0NWhMOTlvb1FKX3Z1OUk?resourcekey=0-OIXHrDwCX8ChjypUbJo4fQ&usp=sharing)
 
 ## 5. Cách thử nghiệm
 
